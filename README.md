@@ -24,3 +24,14 @@ No `index.html`, procure pelo comentário:
 Cole o código oficial do Pixel nesse local.
 
 No `script.js`, existe um evento preparado para medir cliques no botão.
+
+
+## Atualização atual
+
+- Carrossel automático com quatro fotos.
+- Deslize pelo dedo no celular.
+- Fotos inteiras, sem cortes.
+- Meta Pixel instalado: `1229759165933120`
+- Eventos enviados no clique do WhatsApp:
+  - `CliqueGrupoWhatsApp`
+  - `Lead`
