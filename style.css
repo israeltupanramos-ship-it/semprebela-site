@@ -367,24 +367,31 @@ footer small {
   }
 
   .hero-copy {
-    padding: 34px 22px 44px;
-    order: 2;
+    padding: 32px 22px 36px;
+    order: 1;
     text-align: center;
     align-items: center;
   }
 
   .brand {
-    width: min(390px, 92%);
-    margin-bottom: 22px;
+    width: min(360px, 88%);
+    max-height: 135px;
+    margin-bottom: 18px;
   }
 
   h1 {
-    font-size: clamp(2.65rem, 12vw, 4.3rem);
+    font-size: clamp(2.45rem, 11vw, 4rem);
+    margin-bottom: 18px;
+  }
+
+  .lead {
+    margin-bottom: 22px;
   }
 
   .hero-image {
-    min-height: 58vh;
-    order: 1;
+    min-height: 40vh;
+    max-height: 440px;
+    order: 2;
   }
 
   .hero-badge {
@@ -426,6 +433,20 @@ footer small {
 }
 
 @media (max-width: 560px) {
+  .hero-copy {
+    padding: 26px 18px 30px;
+  }
+
+  .hero-image {
+    min-height: 34vh;
+    max-height: 360px;
+  }
+
+  .brand {
+    width: min(330px, 90%);
+    max-height: 118px;
+  }
+
   .section {
     padding: 72px 18px;
   }
